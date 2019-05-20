@@ -35,4 +35,11 @@ public class CustomerDAOImpl implements CustomerDAO {
 		
 		return theCustomer;
 	}
+
+	@Override
+	public void saveCustomer(Customer theCustomer) {
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		currentSession.saveOrUpdate(theCustomer);
+	}
 }
