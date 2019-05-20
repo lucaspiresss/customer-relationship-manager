@@ -1,5 +1,9 @@
 package com.lucaspires.springrestapi.service;
 
-public interface CustomerService {
+import java.util.List;
 
+import com.lucaspires.springrestapi.entity.Customer;
+
+public interface CustomerService {
+	public List<Customer> getCustomer();
 }
