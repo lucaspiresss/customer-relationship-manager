@@ -1,6 +1,6 @@
 
 # Customer Relationship Manager - REST API
-This is the REST API for a simple Customer Relationship Manager.
+This is the REST API for the Customer Relationship Manager.
 
 ## Description
 This Project perform the CRUD operations for a list of Customers which are stored in a MySql Database.
