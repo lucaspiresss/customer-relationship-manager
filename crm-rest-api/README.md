@@ -3,7 +3,7 @@
 This is the REST API for the Customer Relationship Manager.
 
 ## Description
-This Project perform the CRUD operations for a list of Customers which are stored in a MySql Database.
+This Project perform the CRUD operations for a list of Customers which are stored in a MySQL Database.
 
 ## Features
  The available features can be achieved through the use of the following endpoints:
