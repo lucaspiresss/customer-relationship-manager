@@ -20,12 +20,13 @@ This Project perform the CRUD operations for a list of Customers which are store
 * [C3PO] - JDBC3 connection and statement pooling
 * [Hibernate] - object-relational mapping tool for Java
 * [Jackson] - high-performance JSON processor for Java
+* [MySQL] - relational database management system
 * [Spring Web MVC] - web framework from Spring built on the Servlet API
 
 ## Tools used
 * [Eclipse] - most widely used Java IDE
 * [GitHub] - web-based hosting service for version control using Git
-* [MySQL] - relational database management system
+* [MySQL Workbench] - visual design tool for the MySQL database system
 * [Postman] - API development environment (ADE)
 * [Sublime Text] - awesome text editor for code, markup and prose
 
@@ -40,6 +41,7 @@ This Project perform the CRUD operations for a list of Customers which are store
 [Hibernate]: <https://hibernate.org/>
 [Jackson]: <https://github.com/FasterXML/jackson>
 [MySQL]: <https://www.mysql.com/>
+[MySQL Workbench]: <https://www.mysql.com/products/workbench/>
 [Postman]: <https://www.getpostman.com/>
 [Spring Web MVC]: <https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html>
 [Sublime Text]: <https://www.sublimetext.com/>
