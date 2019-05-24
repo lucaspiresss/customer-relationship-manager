@@ -49,4 +49,9 @@ public class CustomerServiceImpl implements CustomerService {
 			restTemplate.put(crmRestUrl, theCustomer);
 		}
 	}
+	
+	@Override
+	public void deleteCustomer(int theId) {
+		restTemplate.delete(crmRestUrl + "/" + theId);
+	}
 }
