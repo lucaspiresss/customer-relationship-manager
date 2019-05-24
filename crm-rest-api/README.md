@@ -32,6 +32,7 @@ This Project perform the CRUD operations for a list of Customers which are store
 
 ## Todos
 * Write automated tests
+* Secure endpoints
 
 [//]: # (These are reference links used in the body of this note. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
