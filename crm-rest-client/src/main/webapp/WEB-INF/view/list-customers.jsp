@@ -33,9 +33,17 @@
 						<th>
 							Email
 						</th>
+						
+						<th>
+							Action
+						</th>
 					</tr>
 					
 					<c:forEach var="tempCustomer" items="${customers}">
+						<c:url var="updateLink" value="/customer/showFormForUpdate">
+							<c:param name="customerId" value="${tempCustomer.id}" />
+						</c:url>
+						
 						<tr>
 							<td>
 								${tempCustomer.firstName}
@@ -47,6 +55,10 @@
 							
 							<td>
 								${tempCustomer.email}
+							</td>
+							
+							<td>
+								<a href="${updateLink}">Update</a>
 							</td>
 						</tr>
 					</c:forEach>	
